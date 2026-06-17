@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: node-selector-taint
   labels:
-    purpose: taints and tolerations demo
+    purpose: taints-tolerations-demo
 spec:
   containers:
   - name: nginx
