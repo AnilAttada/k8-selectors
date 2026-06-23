@@ -23,7 +23,7 @@ spec:
       requiredDuringSchedulingIgnoredDuringExecution:
       - labelSelector:
           matchExpressions:
-            key: app-name
+          - key: app-name
             operator: In
             values:
             - instagram
