@@ -23,9 +23,10 @@ spec:
       requiredDuringSchedulingIgnoreDuringExecution:
       - labelSelectors:
           matchExpressions:
-            key: app-name
-            operator: In
-            value: pod-1
+          -  key: app-name
+             operator: In
+             values: 
+             - pod-1
         topologyKey: "kubernetes.io/hostname"
   containers:
   - name: pod-2
