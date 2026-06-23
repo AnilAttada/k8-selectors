@@ -61,4 +61,4 @@ spec:
             topologyKey: "kubernetes.io/hostname"
       containers:
       - name: web-app
-        image: nginx:1.6-alpine
+        image: nginx
