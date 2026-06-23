@@ -30,10 +30,10 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: web-app
-selector:
-  matchLabels:
-    app: web-store
 spec:
+  selector:
+    matchLabels:
+      app: web-store
   replicas: 2
   template:
     metadata:
