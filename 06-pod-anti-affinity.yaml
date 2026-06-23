@@ -1,14 +1,14 @@
-# apiVersion: v1
-# kind: Pod
-# metadata:
-#    name: pod-1
-#    labels:
-#     app-name: instagram
-#     purpose: pod-anti-affinity
-# spec:
-#   containers:
-#   - name: instagram
-#     image: nginx
+apiVersion: v1
+kind: Pod
+metadata:
+   name: pod-1
+   labels:
+    app-name: instagram
+    purpose: pod-anti-affinity
+spec:
+  containers:
+  - name: instagram
+    image: nginx
 # ---
 # apiVersion: v1
 # kind: Pod
