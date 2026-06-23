@@ -28,6 +28,6 @@ spec:
             values:
             - instagram
         topologyKey: "kubernetes.io/hostname"
-    containers:
-    - name: facebook
-      image: nginx
+  containers:
+  - name: facebook
+    image: nginx
